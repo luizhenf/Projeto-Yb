@@ -228,3 +228,24 @@ i.menu-mobile {
     border-radius: 50%;
 }
 
+.carousel-control-prev{
+    margin-left: -12rem;
+}
+
+.carousel-control-next{
+    margin-right: -12rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+
+@media (max-width: 1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
